@@ -8,7 +8,7 @@
     tools:context=".checkout.ChekoutSuccessActivity">
 
     <Button
-        android:id="@+id/btn_cancel"
+        android:id="@+id/btn_home"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -22,7 +22,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btn_bayar"
+        android:id="@+id/btn_tiket"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -32,7 +32,7 @@
         android:backgroundTint="@color/Pink"
         android:textColor="@color/white"
         android:text="@string/lihat_tiket"
-        app:layout_constraintBottom_toTopOf="@+id/btn_cancel"
+        app:layout_constraintBottom_toTopOf="@+id/btn_home"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 

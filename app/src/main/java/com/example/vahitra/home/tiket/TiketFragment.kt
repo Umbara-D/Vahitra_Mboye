@@ -6,21 +6,21 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.vahitra.R
 import com.example.vahitra.home.dashboard.SegeraAdapter
 import com.example.vahitra.model.Film
 import com.example.vahitra.utils.Preferences
-import com.google.firebase.database.DataSnapshot
-import com.google.firebase.database.DatabaseReference
-import com.google.firebase.database.FirebaseDatabase
-import com.google.firebase.database.ValueEventListener
+import com.google.firebase.database.*
 
 
 class TiketFragment : Fragment() {
 
     lateinit var rv_tiket: RecyclerView
+    lateinit var tv_total: TextView
 
 
     private lateinit var preferences: Preferences
@@ -42,6 +42,7 @@ class TiketFragment : Fragment() {
         preferences = Preferences(activity!!.applicationContext)
         mDatabase = FirebaseDatabase.getInstance().getReference("Film")
         rv_tiket = view.findViewById(R.id.rv_tiket) as RecyclerView
+        tv_total = view.findViewById(R.id.tv_total) as TextView
 
         rv_tiket.layoutManager = LinearLayoutManager(context!!.applicationContext)
         getData()

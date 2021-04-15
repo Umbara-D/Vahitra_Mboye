@@ -32,8 +32,8 @@ class CheckoutActivity : AppCompatActivity() {
         rv_pesanan = findViewById(R.id.rv_pesanan)
         tv_total = findViewById(R.id.tv_total)
         btn_back = findViewById(R.id.btn_back)
-        btn_bayar = findViewById(R.id.btn_bayar)
-        btn_cancel = findViewById(R.id.btn_cancel)
+        btn_bayar = findViewById(R.id.btn_tiket)
+        btn_cancel = findViewById(R.id.btn_home)
 
 
         preferences = Preferences(this)

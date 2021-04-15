@@ -25,7 +25,7 @@ class OnBoardingOneActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val button: Button = findViewById(R.id.btn_cancel)
+        val button: Button = findViewById(R.id.btn_home)
         button.setOnClickListener{
             preference.setValues("onboarding", "1")
             finishAffinity()
@@ -33,7 +33,7 @@ class OnBoardingOneActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val button1: Button = findViewById(R.id.btn_bayar)
+        val button1: Button = findViewById(R.id.btn_tiket)
         button1.setOnClickListener{
 
 

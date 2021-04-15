@@ -32,7 +32,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btn_cancel"
+        android:id="@+id/btn_home"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -46,7 +46,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btn_bayar"
+        android:id="@+id/btn_tiket"
         android:textColor="@color/white"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -56,7 +56,7 @@
         android:background="@drawable/shape_rectangle_pink"
         android:backgroundTint="@color/Pink"
         android:text="@string/bayar_sekarang"
-        app:layout_constraintBottom_toTopOf="@+id/btn_cancel"
+        app:layout_constraintBottom_toTopOf="@+id/btn_home"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 

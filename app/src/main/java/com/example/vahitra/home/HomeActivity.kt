@@ -6,6 +6,7 @@ import android.widget.ImageView
 import androidx.fragment.app.Fragment
 import com.example.vahitra.R
 import com.example.vahitra.home.dashboard.DashboardFragment
+import com.example.vahitra.home.tiket.TiketFragment
 
 class HomeActivity : AppCompatActivity() {
 
