@@ -10,6 +10,8 @@ import com.bumptech.glide.Glide
 import com.example.vahitra.R
 import com.example.vahitra.model.Checkout
 import com.example.vahitra.model.Film
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.FirebaseDatabase
 
 class TiketActivity : AppCompatActivity() {
 
@@ -21,10 +23,13 @@ class TiketActivity : AppCompatActivity() {
 
 
     private var dataList = ArrayList<Checkout>()
+    private lateinit var mDatabase: DatabaseReference
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_tiket)
+        setContentView(R.layout.activity_tiket2)
+
 
         tv_title = findViewById(R.id.tv_title)
         tv_genre = findViewById(R.id.tv_genre)
@@ -34,7 +39,9 @@ class TiketActivity : AppCompatActivity() {
 
         val data = intent.getParcelableExtra<Film>("data")
 
-        tv_title.text = data!!.judul
+
+
+        tv_title.text = data.judul
         tv_genre.text = data.genre
         tv_rate.text = data.rating
 

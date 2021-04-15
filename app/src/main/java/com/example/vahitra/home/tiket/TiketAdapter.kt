@@ -2,10 +2,8 @@ package com.example.vahitra.home.tiket
 
 import android.content.Context
 import android.view.*
-import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
 import com.example.vahitra.R
 import com.example.vahitra.model.Checkout
 import com.example.vahitra.model.Film

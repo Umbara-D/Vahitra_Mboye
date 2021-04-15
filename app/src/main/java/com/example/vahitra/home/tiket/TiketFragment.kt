@@ -63,7 +63,7 @@ class TiketFragment : Fragment() {
 
                 rv_tiket.adapter = SegeraAdapter(dataList) {
                     val intent = Intent(context,
-                            TiketActivity::class.java).putExtra("data", it)
+                        TiketActivity::class.java).putExtra("data", it)
                     startActivity(intent)
                 }
 
