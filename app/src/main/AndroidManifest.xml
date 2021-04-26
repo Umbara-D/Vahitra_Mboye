@@ -21,7 +21,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Vahitra.">
-        <activity android:name=".home.tiket.TiketActivity"></activity>
+
         <activity android:name=".sign.SignUpActivity" />
         <activity android:name=".sign.SignInActivity" />
         <activity android:name=".HistoryActivity" />
@@ -30,6 +30,7 @@
         <activity android:name=".checkout.CheckoutActivity" />
         <activity android:name=".checkout.PilihBangkuActivity" />
         <activity android:name=".checkout.DetailActivity" />
+        <activity android:name=".home.tiket.TiketActivity" />
         <activity android:name=".home.HomeActivity" />
         <activity android:name=".sign.SignUp_PhotoActivity" />
         <activity android:name=".onboarding.OnBoardingThree" />

@@ -21,27 +21,22 @@ class TiketActivity : AppCompatActivity() {
     lateinit var iv_poster_image: ImageView
     lateinit var rv_checkout: RecyclerView
 
-
     private var dataList = ArrayList<Checkout>()
-    private lateinit var mDatabase: DatabaseReference
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_tiket2)
 
-
-        tv_title = findViewById(R.id.tv_title)
-        tv_genre = findViewById(R.id.tv_genre)
-        tv_rate = findViewById(R.id.tv_rate)
-        tv_rate = findViewById(R.id.iv_poster_image)
-        tv_rate = findViewById(R.id.rv_checkout)
+        tv_title = findViewById(R.id.tv_judul_tiket)
+        tv_genre = findViewById(R.id.tv_genre_tiket)
+        tv_rate = findViewById(R.id.tv_rate_tiket)
+        iv_poster_image = findViewById(R.id.iv_poster_image)
+        rv_checkout = findViewById(R.id.rv_checkout)
 
         val data = intent.getParcelableExtra<Film>("data")
 
-
-
-        tv_title.text = data.judul
+        tv_title.text = data!!.judul
         tv_genre.text = data.genre
         tv_rate.text = data.rating
 

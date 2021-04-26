@@ -31,7 +31,7 @@ class SegeraAdapter(private var data: List<Film>,
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view){
         private val tvTitle: TextView = view.findViewById(R.id.tv_kursi)
         private val tvGenre: TextView = view.findViewById(R.id.tv_artis)
-        private val tvRating: TextView = view.findViewById(R.id.tv_rate)
+        private val tvRating: TextView = view.findViewById(R.id.tv_rate_tiket)
         private val tvImage: ImageView = view.findViewById(R.id.iv_artis)
 
         fun bindItem(data: Film, listener: (Film) -> Unit, context: Context){
