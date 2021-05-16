@@ -1,20 +1,20 @@
 <resources>
     <string name="app_name">Vahitra</string>
     <string name="skip_perkenalan">LEWATI PERKENALAN</string>
-    <string name="now">Ship schedule</string>
+    <string name="now">Jadwal Teater</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="name">Nama Lengkap</string>
     <string name="email">Email</string>
-    <string name="signup1">Sign Up</string>
+    <string name="signup1">Daftar Akun</string>
     <string name="login">MASUK AKUN</string>
     <string name="signup">BUAT AKUN</string>
-    <string name="onboarding_capt1">Lebih mudah untuk Mengetahui Jadwal Pelabuhan Yang Tersedia</string>
+    <string name="onboarding_capt1">Lebih mudah untuk Mengetahui Jadwal Teater Yang Tersedia</string>
     <string name="next">LANJUTKAN</string>
-    <string name="booking">Booking Your Schedule</string>
+    <string name="booking">Pesan Jadwal Teater Anda</string>
     <string name="wallet">Digital Wallet</string>
     <string name="wallet_capt">Anda dimudahkan dengan melakukan pembayaran secara digital</string>
-    <string name="booking_capt">Jangan Khawatir Ketinggalan Jadwal, Karna Anda bisa melakukan Booking dengan Vahitra</string>
+    <string name="booking_capt">Jangan Khawatir Ketinggalan Jadwal, Karna Anda bisa melakukan Pemesanan dengan Mboye</string>
     <string name="signin">Sign In</string>
     <string name="photo">Photo</string>
     <string name="welcome">Welcome, <br /> Haidar Rahman</string>
@@ -48,7 +48,7 @@
     <string name="lihat_tiket">LIHAT TIKET</string>
     <string name="home">HOME</string>
     <string name="selamat">Selamat Menonton!</string>
-    <string name="berhasil">Tiket telah berhasil dibeli dan selamat menikmati film</string>
+    <string name="berhasil">Tiket telah berhasil dibeli dan selamat menikmati Teater</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="datetime">Date and Time</string>

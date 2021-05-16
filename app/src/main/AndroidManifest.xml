@@ -16,16 +16,16 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_mboye"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_mboye_foreground"
         android:supportsRtl="true"
         android:theme="@style/Theme.Vahitra.">
 
         <activity android:name=".sign.SignUpActivity" />
         <activity android:name=".sign.SignInActivity" />
-        <activity android:name=".HistoryActivity" />
-        <activity android:name=".EditProfileActivity" />
+        <activity android:name=".profile.HistoryActivity" />
+        <activity android:name=".profile.EditProfileActivity" />
         <activity android:name=".checkout.ChekoutSuccessActivity" />
         <activity android:name=".checkout.CheckoutActivity" />
         <activity android:name=".checkout.PilihBangkuActivity" />

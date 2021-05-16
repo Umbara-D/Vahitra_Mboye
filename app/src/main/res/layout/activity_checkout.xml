@@ -38,7 +38,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="24dp"
-        android:background="@drawable/shape_rectangle_blue_grey"
+        android:background="@drawable/shape_rectangle_primary_grey"
         android:text="@string/batal"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -47,15 +47,14 @@
 
     <Button
         android:id="@+id/btn_tiket"
-        android:textColor="@color/white"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        android:background="@drawable/shape_rectangle_pink"
-        android:backgroundTint="@color/Pink"
+        android:background="@drawable/shape_rectangle_yellow"
         android:text="@string/bayar_sekarang"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/btn_home"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

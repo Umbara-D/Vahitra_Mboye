@@ -14,7 +14,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="24dp"
-        android:background="@drawable/shape_rectangle_pink"
+        android:background="@drawable/shape_rectangle_yellow"
         android:text="@string/next"
         android:textColor="@color/White"
         app:layout_constraintBottom_toBottomOf="parent"
