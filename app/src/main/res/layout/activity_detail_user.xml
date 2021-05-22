@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_admin"
+    tools:context=".admin.DetailUser">
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/btn_back_admin" />
+
+    <TextView
+        android:id="@+id/activity_title"
+        style="@style/judul_pentas"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="204dp"
+        android:text="Detail user"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_back"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/user_icon"
+        android:layout_width="189dp"
+        android:layout_height="240dp"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="163dp"
+        android:background="@drawable/ic_rectangle_pilih"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activity_title"
+        app:srcCompat="@drawable/curry" />
+
+    <TextView
+        android:id="@+id/nama_user"
+        style="@style/form_detail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_icon"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="5dp"
+        android:hint="Nama user"
+        android:text="Stephen Curry"
+        android:textColor="@color/White"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_email_gambar"
+        style="@style/form_detail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nama_user"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:paddingVertical="5dp"
+        android:hint="Email User"
+        android:text="s.curry30@gmail.com"
+        android:textColor="@color/White"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/telp_user"
+        style="@style/form_detail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_email_gambar"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="5dp"
+        android:hint="No. Handphone"
+        android:text="+62878******716"
+        android:textColor="@color/White"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/alamat_user"
+        style="@style/form_detail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/telp_user"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="5dp"
+        android:hint="Alamat"
+        android:text="Jl. Cendrawasih, Sayang-Sayang"
+        android:textColor="@color/White"
+        android:textSize="18sp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

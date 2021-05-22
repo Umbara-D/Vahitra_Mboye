@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Vahitra</string>
+    <string name="skip_perkenalan">LEWATI PERKENALAN</string>
+    <string name="now">Jadwal Teater</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="name">Nama Lengkap</string>
+    <string name="email">Email</string>
+    <string name="signup1">Daftar Akun</string>
+    <string name="login">MASUK AKUN</string>
+    <string name="signup">BUAT AKUN</string>
+    <string name="onboarding_capt1">Lebih mudah untuk Mengetahui Jadwal Teater Yang Tersedia</string>
+    <string name="next">LANJUTKAN</string>
+    <string name="booking">Pesan Jadwal Teater Anda</string>
+    <string name="wallet">Digital Wallet</string>
+    <string name="wallet_capt">Anda dimudahkan dengan melakukan pembayaran secara digital</string>
+    <string name="booking_capt">Jangan Khawatir Ketinggalan Jadwal, Karna Anda bisa melakukan Pemesanan dengan Mboye</string>
+    <string name="signin">Sign In</string>
+    <string name="photo">Photo</string>
+    <string name="welcome">Welcome, <br /> Haidar Rahman</string>
+    <string name="save_next">SIMPAN DAN LANJUTKAN</string>
+    <string name="upload">UPLOAD NANTI</string>
+    <string name="kapal_berlayar">Kapal Berlayar</string>
+    <string name="news">Berita Terkini</string>
+    <string name="bangku">PILIH BANGKU</string>
+    <string name="time">  Date &amp; Time</string>
+    <string name="time_value"> 7 March, 8.00 PM</string>
+    <string name="harga"> Rp. 35.000</string>
+    <string name="total_harga"> Total yang harus dibayar</string>
+    <string name="e_wallet"> E-Wallet</string>
+    <string name="item">Items</string>
+    <string name="masuk">MASUK</string>
+    <string name="daftar">DAFTAR AKUN</string>
+    <string name="kursi"> Kursi No. C1</string>
+    <string name="cinema_value"> CGV Transmart Mataram, Cinema 3</string>
+    <string name="checkout">Checkout</string>
+    <string name="save_profile">SIMPAN DATA BARU</string>
+    <string name="when">When</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="bayar_sekarang">BAYAR SEKARANG</string>
+    <string name="batal">BATALKAN</string>
+    <string name="film_capt">The Avengers must stop Thanos, a mad Titan, and his <br />
+                            army from getting their hands on all the infinity stones. <br />
+                            However, the mad Titan is prepared to go to any lengths <br />
+                            to carry out his insane plan.</string>
+    <string name="pilih_bangku">Pilih Bangku</string>
+    <string name="beli_tiket">BELI TIKET</string>
+    <string name="lihat_tiket">LIHAT TIKET</string>
+    <string name="home">HOME</string>
+    <string name="selamat">Selamat Menonton!</string>
+    <string name="berhasil">Tiket telah berhasil dibeli dan selamat menikmati Teater</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="datetime">Date and Time</string>
+    <string name="nama">nama</string>
+    <string name="namaPentas">Nama Pentas</string>
+    <string name="activity_title">Daftar Pentas</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+    <string name="nama_user">Nama User</string>
+    <string name="email_user">Email User</string>
+</resources>

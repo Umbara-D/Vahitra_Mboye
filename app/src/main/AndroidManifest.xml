@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vahitra">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE " />
+    <uses-permission android:name="android.permission.CAMERA " />
+
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission-sdk-23 android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_mboye"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_mboye_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Vahitra.">
+        <activity android:name=".admin.DetailFaq"></activity>
+        <activity android:name=".admin.DaftarFaq" />
+        <activity android:name=".admin.DetailUser" />
+        <activity android:name=".admin.DaftarUser" />
+        <activity android:name=".admin.AddPentas" />
+        <activity android:name=".admin.DetailPentas" />
+        <activity android:name=".admin.DaftarPentas" />
+        <activity android:name=".admin.DashboardAdmin" />
+        <activity android:name=".sign.SignUpActivity" />
+        <activity android:name=".sign.SignInActivity" />
+        <activity android:name=".profile.HistoryActivity" />
+        <activity android:name=".profile.EditProfileActivity" />
+        <activity android:name=".checkout.ChekoutSuccessActivity" />
+        <activity android:name=".checkout.CheckoutActivity" />
+        <activity android:name=".checkout.PilihBangkuActivity" />
+        <activity android:name=".checkout.DetailActivity" />
+        <activity android:name=".home.tiket.TiketActivity" />
+        <activity android:name=".home.HomeActivity" />
+        <activity android:name=".sign.SignUp_PhotoActivity" />
+        <activity android:name=".onboarding.OnBoardingThree" />
+        <activity android:name=".onboarding.onBoardingTwo" />
+        <activity android:name=".onboarding.OnBoardingOneActivity" />
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

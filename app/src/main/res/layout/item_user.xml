@@ -1,0 +1,50 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_gambar"
+        android:layout_width="85dp"
+        android:layout_height="108dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/ic_rectangle_pilih"
+        android:src="@drawable/curry"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_email_gambar"
+        app:layout_constraintTop_toTopOf="@+id/tv_nama_gambar"
+        app:layout_constraintVertical_bias="0.416"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="3dp" />
+
+    <TextView
+        android:id="@+id/tv_nama_gambar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_vertical"
+        android:text="@string/nama_user"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/iv_gambar"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <TextView
+        android:id="@+id/tv_email_gambar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical"
+        android:text="@string/email_user"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/iv_gambar"
+        app:layout_constraintTop_toBottomOf="@id/tv_nama_gambar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

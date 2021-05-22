@@ -1,0 +1,58 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_gambar"
+        android:layout_width="85dp"
+        android:layout_height="108dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/ic_rectangle_pilih"
+        android:src="@drawable/pentas_icon"
+        android:textSize="25sp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_nama_gambar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="25dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_vertical"
+        android:text="@string/namaPentas"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/iv_gambar"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <Button
+        android:id="@+id/btn_hapus_pentas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:background="@drawable/hapus_admin"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/iv_gambar"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nama_gambar" />
+
+    <Button
+        android:id="@+id/btn_edit_pentas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:background="@drawable/edit_admin"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toEndOf="@+id/btn_hapus_pentas"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nama_gambar" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

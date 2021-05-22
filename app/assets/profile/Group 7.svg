@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="131" height="66" viewBox="0 0 131 66">
+  <g id="Group_7" data-name="Group 7" transform="translate(-24 -31)">
+    <text id="Angga_Risky" data-name="Angga Risky" transform="translate(24 57)" fill="#fff" font-size="24" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Angga Risky</tspan></text>
+    <text id="IDR_280.000" data-name="IDR 280.000" transform="translate(56 91)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">IDR 280.000</tspan></text>
+    <g id="account_balance_wallet-24px" transform="translate(24 73)">
+      <path id="Path_10" data-name="Path 10" d="M0,0H24V24H0Z" fill="none"/>
+      <path id="Path_11" data-name="Path 11" d="M21,18v1a2.006,2.006,0,0,1-2,2H5a2,2,0,0,1-2-2V5A2,2,0,0,1,5,3H19a2.006,2.006,0,0,1,2,2V6H12a2,2,0,0,0-2,2v8a2,2,0,0,0,2,2Zm-9-2H22V8H12Zm4-2.5A1.5,1.5,0,1,1,17.5,12,1.5,1.5,0,0,1,16,13.5Z" fill="#ff2667"/>
+    </g>
+  </g>
+</svg>

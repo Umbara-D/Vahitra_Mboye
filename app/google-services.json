@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "43719974995",
+    "project_id": "vahitra-mov",
+    "storage_bucket": "vahitra-mov.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43719974995:android:de0bf6d22f2ca041f826a6",
+        "android_client_info": {
+          "package_name": "com.example.vahitra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43719974995-nhqjdb2qg18e0qscl5jhh7j26qp5hfds.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz5-xKR3nghMAecuDpTrPu8sOQ98ItUFs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43719974995-nhqjdb2qg18e0qscl5jhh7j26qp5hfds.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
