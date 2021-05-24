@@ -10,20 +10,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/shape_rectangle_white_outline"
-        android:backgroundTint="#50ffffff"
+        android:backgroundTint="#30ffffff"
         android:paddingVertical="5dp"
         android:paddingHorizontal="12dp">
 
         <TextView
-            android:id="@+id/tv_nama_gambar"
+            android:id="@+id/tv_judul_faq"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginStart="20dp"
             android:fontFamily="sans-serif-black"
             android:gravity="center_vertical"
-            android:text="@string/nama_user"
+            android:text="@string/judul_faq"
             android:textColor="@android:color/white"
-            android:textSize="14sp"
+            android:textSize="16sp"
             app:layout_constraintStart_toEndOf="@+id/iv_gambar"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -39,7 +39,7 @@
             android:textColor="@android:color/white"
             android:textSize="12sp"
             app:layout_constraintStart_toEndOf="@+id/iv_gambar"
-            app:layout_constraintTop_toBottomOf="@id/tv_nama_gambar" />
+            app:layout_constraintTop_toBottomOf="@id/tv_judul_faq" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Vahitra_Mboye.iml" filepath="$PROJECT_DIR$/.idea/Vahitra_Mboye.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Vahitra.iml" filepath="$PROJECT_DIR$/.idea/modules/Vahitra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Vahitra.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Vahitra.app.iml" />
     </modules>
   </component>
 </project>

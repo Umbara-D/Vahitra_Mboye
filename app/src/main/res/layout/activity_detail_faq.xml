@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/bg_admin"
-    android:padding="16dp"
+    android:paddingHorizontal="16dp"
     tools:context=".admin.DetailFaq">
 
     <ImageButton
@@ -24,7 +24,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="204dp"
-        android:text="Detail user"
+        android:text="Detail FAQ"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btn_back"
         app:layout_constraintTop_toTopOf="parent" />
@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:background="@drawable/shape_rectangle_white_outline"
-        android:backgroundTint="#50ffffff"
+        android:backgroundTint="#30ffffff"
         android:paddingHorizontal="12dp"
         android:paddingVertical="5dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -43,13 +43,13 @@
         app:layout_constraintTop_toBottomOf="@+id/activity_title">
 
         <TextView
-            android:id="@+id/tv_nama_gambar"
+            android:id="@+id/tv_judul_faq"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginStart="20dp"
             android:fontFamily="sans-serif-black"
             android:gravity="center_vertical"
-            android:text="@string/nama_user"
+            android:text="@string/judul_faq"
             android:textColor="@android:color/white"
             android:textSize="14sp"
             app:layout_constraintStart_toEndOf="@+id/iv_gambar"
@@ -67,11 +67,11 @@
             android:textColor="@android:color/white"
             android:textSize="12sp"
             app:layout_constraintStart_toEndOf="@+id/iv_gambar"
-            app:layout_constraintTop_toBottomOf="@id/tv_nama_gambar" />
+            app:layout_constraintTop_toBottomOf="@id/tv_judul_faq" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <TextView
+    <EditText
         android:id="@+id/tv_jawaban"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -79,7 +79,7 @@
         android:layout_marginTop="25dp"
         android:layout_marginStart="25dp"
         android:background="@drawable/shape_rectangle_white_outline"
-        android:backgroundTint="#50ffffff"
+        android:backgroundTint="#30ffffff"
         android:fontFamily="sans-serif"
         android:gravity="center_vertical"
         android:paddingHorizontal="12dp"
@@ -89,5 +89,40 @@
         android:textSize="12sp"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
         tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:id="@+id/btn_simpan_faq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_rectangle_white_outline"
+        android:backgroundTint="#735290"
+        android:gravity="center"
+        android:paddingVertical="8dp"
+        android:text="Simpan"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/btn_hapus_faq"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_jawaban"
+        app:layout_constraintVertical_bias="0.862" />
+
+    <Button
+        android:id="@+id/btn_hapus_faq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="96dp"
+        android:background="@drawable/shape_rectangle_purple_outline"
+        android:gravity="center"
+        android:paddingVertical="8dp"
+        android:text="Hapus"
+        android:textSize="18sp"
+        android:textColor="#735290"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
