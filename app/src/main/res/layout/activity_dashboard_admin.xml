@@ -38,22 +38,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="45dp"
         android:src="@drawable/btn_pentas"
-        app:layout_constraintEnd_toStartOf="@+id/btn_user"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintBottom_toTopOf="@+id/btn_user"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="212dp" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_email"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/btn_user"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="50dp"
+        android:layout_marginBottom="46dp"
         android:src="@drawable/btn_user"
+        app:layout_constraintBottom_toTopOf="@+id/btn_faq"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="212dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/btn_faq"
@@ -63,8 +67,8 @@
         android:src="@drawable/btn_faq"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_pentas"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="539dp" />
 
     <ImageButton
         android:id="@+id/btn_logout"
@@ -73,8 +77,6 @@
         android:layout_marginStart="68dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="123dp"
-        app:layout_constraintBottom_toTopOf="@+id/btn_user"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/tv_email"
