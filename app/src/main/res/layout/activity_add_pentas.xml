@@ -29,96 +29,81 @@
         app:layout_constraintStart_toEndOf="@+id/btn_back"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.google.android.material.textfield.TextInputLayout
+    <EditText
         android:id="@+id/nama_pentas"
         style="@style/form_detail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/activity_title">
+        app:layout_constraintTop_toBottomOf="@+id/activity_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="10dp"
+        android:hint="Nama Pentas"
+        android:text="Masmirah"
+        android:textColor="@color/White"
+        android:textSize="18sp" />
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:hint="Nama Pentas"
-            android:text="Masmirah"
-            android:textColor="@color/White"
-            android:textSize="18sp" />
-
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
+    <EditText
         android:id="@+id/nama_produksi"
         style="@style/form_detail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nama_pentas">
+        app:layout_constraintTop_toBottomOf="@+id/nama_pentas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="10dp"
+        android:hint="Produksi dari"
+        android:text="Teater Putih Universitas Mataram"
+        android:textColor="@color/White"
+        android:textSize="18sp"/>
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:hint="Produksi dari"
-            android:text="Teater Putih Universitas Mataram"
-            android:textColor="@color/White"
-            android:textSize="18sp" />
-
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
+    <EditText
         android:id="@+id/pemain_pentas"
         style="@style/form_detail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nama_produksi">
+        app:layout_constraintTop_toBottomOf="@+id/nama_produksi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="10dp"
+        android:hint="Pemain"
+        android:text="Esa, Fareh, Ghazy"
+        android:textColor="@color/White"
+        android:textSize="18sp"/>
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:hint="Pemain"
-            android:text="Esa, Fareh, Ghazy"
-            android:textColor="@color/White"
-            android:textSize="18sp" />
-
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
+    <EditText
         android:id="@+id/sinopsis_pentas"
         style="@style/form_detail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pemain_pentas">
+        app:layout_constraintTop_toBottomOf="@+id/pemain_pentas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="10dp"
+        android:hint="Sinopsis"
+        android:text="@string/lorem"
+        android:textColor="@color/White"
+        android:textSize="14sp" />
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:hint="Sinopsis"
-            android:text="@string/lorem"
-            android:textColor="@color/White"
-            android:textSize="14sp" />
-
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
+    <EditText
         android:id="@+id/tanggal_pentas"
         style="@style/form_detail"
         android:layout_marginStart="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sinopsis_pentas">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:hint="Tanggal Tayang"
-            android:text="20 November 2020"
-            android:textColor="@color/White"
-            android:textSize="18sp" />
-
-    </com.google.android.material.textfield.TextInputLayout>
+        app:layout_constraintTop_toBottomOf="@+id/sinopsis_pentas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="10dp"
+        android:hint="Tanggal Tayang"
+        android:text="20 November 2020"
+        android:textColor="@color/White"
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/btn_upload_poster"

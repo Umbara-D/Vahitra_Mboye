@@ -52,8 +52,8 @@
             android:text="@string/judul_faq"
             android:textColor="@android:color/white"
             android:textSize="14sp"
-            app:layout_constraintStart_toEndOf="@+id/iv_gambar"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
 
         <TextView
             android:id="@+id/tv_email_gambar"
@@ -66,8 +66,8 @@
             android:text="@string/lorem"
             android:textColor="@android:color/white"
             android:textSize="12sp"
-            app:layout_constraintStart_toEndOf="@+id/iv_gambar"
-            app:layout_constraintTop_toBottomOf="@id/tv_judul_faq" />
+            app:layout_constraintTop_toBottomOf="@id/tv_judul_faq"
+            tools:ignore="MissingConstraints" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
